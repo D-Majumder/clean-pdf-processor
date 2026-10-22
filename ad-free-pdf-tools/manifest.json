@@ -3,8 +3,8 @@
   "name": "Clean PDF Processor Pro",
   "author": "Anabhay Ventures",
   "homepage_url": "https://anabhay.in/",
-  "version": "1.0",
-  "description": "Merge PDFs locally without ads or server uploads.",
+  "version": "2.0",
+  "description": "Merge, split, rotate, and delete PDF pages locally without ads or server uploads.",
   "action": {
     "default_popup": "popup.html"
   },

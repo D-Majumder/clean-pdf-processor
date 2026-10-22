@@ -31,3 +31,14 @@ footer { font-size: 10px; text-align: center; }
 .drop-zone[aria-disabled="true"] { opacity: .55; cursor: default; }
 @keyframes spin { to { transform: rotate(360deg); } }
 @media (prefers-reduced-motion: reduce) { .spinner { animation: none; } }
+
+/* Each file keeps its page selection and editing tools together. */
+body { width: 440px; }
+ol { max-height: 280px; }
+li { display: block; padding: 12px; }
+.file-heading { display: flex; align-items: center; gap: 6px; }
+.file-toolbar { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.file-toolbar button { padding: 7px 9px; font-size: 11px; }
+.page-selection { display: flex; align-items: center; gap: 8px; margin-top: 10px; font-size: 11px; color: #65718a; }
+.page-selection input { flex: 1; min-width: 0; border: 1px solid #c6cdef; border-radius: 6px; padding: 7px; font: inherit; color: #17243a; background: white; }
+.page-selection input:focus-visible { outline: 2px solid #8898ef; outline-offset: 2px; }
